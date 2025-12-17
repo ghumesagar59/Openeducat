@@ -103,7 +103,7 @@ public class Integrations {
     }
 
 	
-	@Then("close the browser")
+	@Then("close the browser Integrations")
 	public void close () throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();

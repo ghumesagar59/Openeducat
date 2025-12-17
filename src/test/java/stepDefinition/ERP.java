@@ -194,7 +194,7 @@ public class ERP {
 			Thread.sleep(500);
 	    }
 
-	    @Then("close the browser")
+	    @Then("close the browser ERP")
 	    public void close_the_browser() {
 	        driver.quit();
 	    }

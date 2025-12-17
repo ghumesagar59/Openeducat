@@ -45,16 +45,6 @@ public class Resources_Solutions {
 		Thread.sleep(500);
     }
 
-    @And("user click to Blog and navigate")
-    public void user_click_to_blog_and_navigate() throws InterruptedException {
-    	WebElement Resources = driver.findElement(By.xpath("(//span[normalize-space()='Resources'])[1]"));
-    	Resources.click();
-		Thread.sleep(500);
-		WebElement Blog = driver.findElement(By.xpath("(//h6[normalize-space()='Blog'])[1]"));
-		Blog.click();
-		Thread.sleep(500);
-    }
-
     @And("user click to Downloads and navigate")
     public void user_click_to_downloads_and_navigate() throws InterruptedException {
     	WebElement Resources = driver.findElement(By.xpath("(//span[normalize-space()='Resources'])[1]"));
@@ -190,7 +180,7 @@ public class Resources_Solutions {
 		Thread.sleep(500);
     }
 
-	@Then("close the browser")
+	@Then("close the browser Resources_Solutions")
 	public void close () throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();

@@ -26,7 +26,7 @@ public class Login {
 		Email.sendKeys("ghumesagar59@gmail.com");
 		Thread.sleep(1000);
 	}
-	@And("user enters password")
+	@And("user enter the password")
 	public void password () throws InterruptedException {
 		WebElement Password = driver.findElement(By.xpath("(//input[@id='password'])[1]"));
 		Password.sendKeys("Pass@123");

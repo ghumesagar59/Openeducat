@@ -89,7 +89,7 @@ public class Management {
 			Thread.sleep(500);
 	    }
 
-	    @Then("close the browser")
+	    @Then("close the browser Management")
 	    public void close_the_browser() {
 	        driver.quit();
 	    }

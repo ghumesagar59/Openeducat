@@ -15,4 +15,4 @@ And user click to Online Appointment and navigate
 And user click to Poll and navigate
 And user click to Secure and navigate
 And user click to Survey and navigate
-Then close the browser
+Then close the browser Communicate

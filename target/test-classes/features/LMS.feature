@@ -6,4 +6,4 @@ Given User is on website home page for LMS automate
 And user click to LMS
 And user click to LMS and navigate
 And user click to Quiz Meet and navigate
-Then close the browser
+Then close the browser LMS

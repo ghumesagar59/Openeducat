@@ -13,4 +13,4 @@ And user click to leave request and navigate
 And user click to payment and navigate
 And user click to time table and navigate
 And user click to timesheet and navigate
-Then close the browser
+Then close the browser Essential

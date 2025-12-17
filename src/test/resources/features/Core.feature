@@ -10,4 +10,4 @@ And user click to exam and navigate
 And user click to faculty and navigate
 And user click to financial and navigate
 And user click to student and navigate
-Then close the browser
+Then close the browser Core

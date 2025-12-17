@@ -25,4 +25,4 @@ And user click to quiz anticheating and navigate
 And user click to reporting and navigate
 And user click to thesis and navigate
 And user click to convocation and navigate
-Then close the browser
+Then close the browser Advance

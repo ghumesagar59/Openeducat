@@ -298,7 +298,7 @@ public class Advance {
 		Thread.sleep(500);
 	}
 	
-	@Then("close the browser")
+	@Then("close the browser Advance")
 	public void close () throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();

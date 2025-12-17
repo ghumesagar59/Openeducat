@@ -22,6 +22,7 @@ public class Communicate {
 
     @And("user click to communicate")
     public void user_click_to_communicate() throws InterruptedException {
+    	Thread.sleep(2000);
     	WebElement feature = driver.findElement(By.xpath("(//span[normalize-space()='Features'])[1]"));
     	feature.click();
 		Thread.sleep(500);
@@ -167,7 +168,7 @@ public class Communicate {
 		Thread.sleep(500);
     }
 	
-	@Then("close the browser")
+	@Then("close the browser Communicate")
 	public void close () throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();

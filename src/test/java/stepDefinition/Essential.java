@@ -141,7 +141,7 @@ public class Essential {
 		Thread.sleep(500);
     }
 
-    @Then("close the browser")
+    @Then("close the browser Essential")
     public void close_the_browser() {
         driver.quit();
     }

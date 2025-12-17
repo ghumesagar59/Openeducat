@@ -100,7 +100,7 @@ public class Demo_Pricing {
 	        driver.findElement(By.xpath("(//a[@id='enterprise_track_btn'])[1]")).click();
 	        Thread.sleep(200);
 	    }
-	@Then("close the browser")
+	@Then("close the browser Demo_Pricing")
 	public void close () throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();

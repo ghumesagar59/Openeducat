@@ -17,4 +17,4 @@ And user click to Purchase and navigate
 And user click to Recruitment and navigate
 And user click to Sales and navigate
 And user click to Stock and navigate
-Then close the browser
+Then close the browser ERP

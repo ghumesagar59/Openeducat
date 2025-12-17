@@ -102,7 +102,7 @@ public class Core {
 		Thread.sleep(500);
     }
 
-    @Then("close the browser")
+    @Then("close the browser Core")
     public void close_the_browser() {
         driver.quit();
     }

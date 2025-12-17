@@ -51,7 +51,7 @@ public class LMS {
     }
 
 	
-	@Then("close the browser")
+	@Then("close the browser LMS")
 	public void close () throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();

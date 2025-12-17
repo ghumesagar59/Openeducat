@@ -13,4 +13,4 @@ And user click to social media and next
 And user click to '25' user and next
 And user click to android and next
 And user click to 25 hours and get quote
-Then close the browser
+Then close the browser Demo_Pricing

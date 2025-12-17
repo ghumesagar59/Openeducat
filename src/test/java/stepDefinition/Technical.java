@@ -37,7 +37,7 @@ public class Technical {
 		Thread.sleep(500);
     }
 
-    @And("user click to Data Import / Export and navigate")
+    @And("user click to Data Import Export and navigate")
     public void user_click_to_data_import_export_and_navigate() throws InterruptedException {
     	WebElement feature = driver.findElement(By.xpath("(//span[normalize-space()='Features'])[1]"));
     	feature.click();
@@ -141,19 +141,6 @@ public class Technical {
 		Thread.sleep(500);
     }
 
-    @And("user click to Secure and navigate")
-    public void user_click_to_secure_and_navigate() throws InterruptedException {
-    	WebElement feature = driver.findElement(By.xpath("(//span[normalize-space()='Features'])[1]"));
-    	feature.click();
-		Thread.sleep(500);
-		WebElement technical = driver.findElement(By.xpath("(//button[normalize-space()='Technical'])[1]"));
-		technical.click();
-		Thread.sleep(500);
-		WebElement secure = driver.findElement(By.xpath("(//p[@title='Secure'])[1]"));
-		secure.click();
-		Thread.sleep(500);
-    }
-
     @And("user click to Web Service Enabled and navigate")
     public void user_click_to_web_service_enabled_and_navigate() throws InterruptedException {
     	WebElement feature = driver.findElement(By.xpath("(//span[normalize-space()='Features'])[1]"));
@@ -167,7 +154,7 @@ public class Technical {
 		Thread.sleep(500);
     }
 	
-	@Then("close the browser")
+	@Then("close the browser Technical")
 	public void close () throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();

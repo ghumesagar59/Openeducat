@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/features/Communicate.feature",
+		features = "src/test/resources/features/Footer.feature",
 		plugin = { "pretty",
 	    			"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 	    			"html:target/cucumber-reports.html"},
